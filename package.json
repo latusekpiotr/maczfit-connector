@@ -1,7 +1,7 @@
 {
   "name": "maczfit-connector",
   "version": "1.0.0",
-  "description": "Playwright scraper for Maczfit Smart Start menu",
+  "description": "Playwright scraper for Maczfit Smart Start menu (single day or ISO date range)",
   "type": "module",
   "scripts": {
     "scrape": "node scrape-smartstart.mjs",
