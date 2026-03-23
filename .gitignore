@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+.playwright/
+
+# Generated scraper output (recreated on each run)
+menu-output.json
+
+# Logs and debug artifacts
+*.log
+npm-debug.log*
+page.png
