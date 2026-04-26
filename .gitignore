@@ -1,26 +1,24 @@
-# Dependencies
+# Dependencies and caches
 node_modules/
+**/node_modules/
+__pycache__/
+**/__pycache__/
 
-# macOS / Windows junk
-.DS_Store
-Thumbs.db
-Desktop.ini
-
-# Environment and secrets
-.env
-.env.*
-!.env.example
-
-# Playwright
-playwright-report/
-test-results/
-blob-report/
-.playwright/
-
-# Generated scraper output (recreated on each run)
-menu-output.json
+# Generated menu outputs
+v1/menu-output.json
+v2/menu-output-enriched.json
 
 # Logs and debug artifacts
 *.log
 npm-debug.log*
 page.png
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment files
+.env
+.env.*
+!.env.example
